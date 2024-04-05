@@ -1,0 +1,170 @@
+[
+    {
+        "id": "b282dc757b7bb1ac",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "a1dc04a190d698cd",
+        "type": "inject",
+        "z": "b282dc757b7bb1ac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Exame A",
+        "payloadType": "str",
+        "x": 480,
+        "y": 260,
+        "wires": [
+            [
+                "5c128e8d2fa94d2d"
+            ]
+        ]
+    },
+    {
+        "id": "0e01ae97a565a8be",
+        "type": "inject",
+        "z": "b282dc757b7bb1ac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Exame B",
+        "payloadType": "str",
+        "x": 480,
+        "y": 340,
+        "wires": [
+            [
+                "f4ed0bba4fae56af"
+            ]
+        ]
+    },
+    {
+        "id": "bc61687816eb23a6",
+        "type": "inject",
+        "z": "b282dc757b7bb1ac",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Exame C",
+        "payloadType": "str",
+        "x": 480,
+        "y": 420,
+        "wires": [
+            [
+                "e05ef9a2500963bf"
+            ]
+        ]
+    },
+    {
+        "id": "5c128e8d2fa94d2d",
+        "type": "function",
+        "z": "b282dc757b7bb1ac",
+        "name": "Hemograma",
+        "func": "msg.payload = `*HEMOGRAMA*\nQuem nunca fez aquele clássico hemograma, né? É tipo um check-up do seu sangue, dando aquele panorama geral da sua saúde. E o melhor? Não tem mistério nenhum!\n\nBasta marcar uma consulta com o médico, seguir umas dicas básicas e pronto! Nada de comidas pesadas ou drinks alcoólicos antes, para não dar aquela bagunçada nos resultados. Ah, e pode ficar de boas, o processo é rapidinho e nem dói tanto assim.\n\nDepois da coleta, é só relaxar e esperar uns dias até os resultados ficarem prontos. Daí é só sentar com o médico, bater um papo sobre os números e se precisar, tomar umas providências.\n\nPara se preparar melhor, veja um pouco mais sobre: https://www.youtube.com/watch?v=hwlMfNxX05c`\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 280,
+        "wires": [
+            [
+                "6f6c36a7d442d2d4"
+            ]
+        ]
+    },
+    {
+        "id": "6f6c36a7d442d2d4",
+        "type": "node-red-contrib-whatsapp-cmb-send-message",
+        "z": "b282dc757b7bb1ac",
+        "name": "Marcelo",
+        "credtype": "account",
+        "account": "788165e98951df2a",
+        "text": "payload",
+        "phonenumbervalue": "",
+        "apikeyvalue": "",
+        "apikeyinputtypemessage": "msg",
+        "phonenumberinputtypemessage": "msg",
+        "inputtypemessage": "msg",
+        "rejectssl": false,
+        "x": 880,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f4ed0bba4fae56af",
+        "type": "function",
+        "z": "b282dc757b7bb1ac",
+        "name": "Radiografia",
+        "func": "msg.payload = `*A Aventura da Radiografia: Vamos Explorar Seus Ossos!*\n\nA radiografia é como tirar uma foto dos nossos ossos!\n\nPara começar essa aventura, vista uma roupinha confortável. No lugar onde faremos o exame, encontraremos um aparelho chamado \"aparelho de Raios-X\".\n\nPrecisaremos ficar bem parados, como super-heróis, enquanto tiramos a foto. Não se preocupe, o exame é rápido e indolor! Depois, os médicos vão analisar as fotos para ver como estão nossos ossinhos por dentro. \n\nLembre-se de que só podemos fazer o exame com a autorização dos nossos pais e seguindo todas as instruções dos médicos e técnicos. Então, pessoal, vamos nessa!\n\nPara se preparar melhor, veja um pouco mais sobre: https://www.youtube.com/watch?v=HCjW0yBNQDU\n`\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 340,
+        "wires": [
+            [
+                "6f6c36a7d442d2d4"
+            ]
+        ]
+    },
+    {
+        "id": "e05ef9a2500963bf",
+        "type": "function",
+        "z": "b282dc757b7bb1ac",
+        "name": "Ultlrassom",
+        "func": "msg.payload = `*Explorando o Mundo do Ultrassom!*\n\nO ultrassom é uma técnica médica para visualizar o corpo humano, especialmente usado na gestação para acompanhar o desenvolvimento do bebê. Antes do exame, é importante estar confortável e bem hidratado.\n\nDurante o procedimento, deita-se em uma cama enquanto um gel é aplicado na área a ser examinada. Todos observam atentamente à tela para ver detalhes. Após o exame, o médico analisa as imagens para verificar o estado da área examinada.\n\nÉ fundamental seguir as orientações médicas para um exame eficaz.\n\nPara se preparar melhor, veja um pouco mais sobre: https://www.youtube.com/watch?v=W40yaaRDy0o\n`\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 400,
+        "wires": [
+            [
+                "6f6c36a7d442d2d4"
+            ]
+        ]
+    },
+    {
+        "id": "788165e98951df2a",
+        "type": "node-red-contrib-whatsapp-cmb-account",
+        "name": "MarceloTest"
+    }
+]
