@@ -28,6 +28,47 @@ Link - https://www.youtube.com/watch?v=Vg0MZIl01jg
 2. Entre no sistema NodeRed e cole o arquivo la dentro.
 3. Instale a biblioteca node-red-contrib-whatsapp-cmb, e siga o passo a passo para a utilização.
 
-## Licença
+ ### :handshake: Grupo
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/FelipeSalazar16">
+        <img src="https://avatars.githubusercontent.com/u/91813889?v=4" width="100px;" alt="Foto do Felipe no GitHub"/><br>
+        <sub>
+          <b>Felipe Castro Salazar</b>
+        </sub>
+      </a>
+    </td>
+   <td align="center">
+      <a href="https://github.com/lucas-reis-diniz">
+        <img src="https://avatars.githubusercontent.com/u/145406645?s=400&u=6ae1d325e16182ac64c9a0887e07fd16ac4f51f0&v=4" width="100px;" alt="Foto do Victor no GitHub"/><br>
+        <sub>
+          <b>Lucas Reis Diniz</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/MarcelShin">
+        <img src="https://avatars.githubusercontent.com/u/143458172?v=4" width="100px;" alt="Foto do Marcelo no GitHub"/><br>
+        <sub>
+          <b>Marcelo Vieira de Melo</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/rayaraamaro">
+        <img src="https://avatars.githubusercontent.com/u/143045200?v=4" width="100px;" alt="Foto do Victor no GitHub"/><br>
+        <sub>
+          <b>Rayara Amaro Figueiredo</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/VictorRodrigues16">
+        <img src="https://avatars.githubusercontent.com/u/143040764?v=4" width="100px;" alt="Foto do Victor no GitHub"/><br>
+        <sub>
+          <b>Victor Rodrigues Pereira Paes</b>
+        </sub>
+      </a>
+    </td>
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE).
