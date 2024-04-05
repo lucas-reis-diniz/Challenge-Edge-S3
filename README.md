@@ -2,6 +2,10 @@
 
 Este é uma entrega da Terceira Sprint da Challenge de Engenharia de Software da FIAP, onde temos uma API NodeRed que manda msg para o numero Whatsapp do paciente informando sua consulta.
 
+## Video Explicativo
+
+Link - https://www.youtube.com/watch?v=Vg0MZIl01jg
+
 ## Funcionalidades
 
 - **Chat via Whatsapp:** As mensagens são enviadas e recebidas em tempo real, avisando o paciente sobre novas consultas, e consultas ja marcadas.
