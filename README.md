@@ -4,7 +4,7 @@ Este é uma entrega da Terceira Sprint da Challenge de Engenharia de Software da
 
 ## Video Explicativo
 
-Link - https://www.youtube.com/watch?v=Vg0MZIl01jg
+Link - [https://www.youtube.com/watch?v=Vg0MZIl01jg](https://www.youtube.com/watch?v=7nu_0qEet6Q)
 
 ## Funcionalidades
 
