@@ -1,6 +1,6 @@
-# Challenge-Edge-S3
+# Challenge-Edge-S6
 
-Este é uma entrega da Terceira Sprint da Challenge de Engenharia de Software da FIAP, onde temos uma API NodeRed que manda msg para o numero Whatsapp do paciente informando sua consulta.
+Este é uma entrega da Sexta Sprint da Challenge de Engenharia de Software da FIAP, onde temos uma API NodeRed que manda mensagens para o numero Whatsapp do paciente informando seus exames.
 
 ## Video Explicativo
 
@@ -8,11 +8,12 @@ Link - [https://www.youtube.com/watch?v=Vg0MZIl01jg](https://www.youtube.com/wat
 
 ## Funcionalidades
 
-- **Chat via Whatsapp:** As mensagens são enviadas e recebidas em tempo real, avisando o paciente sobre novas consultas, e consultas ja marcadas.
+- **Chat via Whatsapp:** As mensagens são enviadas e recebidas em tempo real, avisando o paciente sobre novas consultas, e consultas ja marcadas, trazendo informações necessarias para a realização dos exames e procedimento que devem ser feitos antes dos mesmos.
 
 ## Tecnologias Utilizadas
 
 - **API:** NodeRed
+- **Hardware:** Arduino
 - **Biblioteca:** node-red-contrib-whatsapp-cmb
 
 ## Como Executar o Projeto
