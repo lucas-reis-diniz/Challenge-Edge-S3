@@ -1,4 +1,4 @@
-# Challenge-Edge-S6
+# Challenge-Edge-S4
 
 Este é uma entrega da 4° Sprint da Challenge de Engenharia de Software da FIAP, onde temos uma API NodeRed que manda mensagens para o numero Whatsapp do paciente informando seus exames.
 
